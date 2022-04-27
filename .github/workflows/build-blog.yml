@@ -1,0 +1,8 @@
+name: Build blogs from Trello Card
+
+on:
+  push:
+    branches:
+      - gh-pages
+      schedule:
+        - cron: '* */24 * * *'
