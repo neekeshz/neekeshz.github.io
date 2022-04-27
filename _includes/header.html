@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <a href="#" class="men">&#9776;</a>
+  <nav>
+    {% for item in site.data.navigation %}
+    <a href="{{ item.url }}" style="font-size:large">{{ item.title }}</a>
+    {% endfor %}
+  </nav>
+  <div class="hero">
+    <h1><a href="#">Today I learnt Blog </a></h1>
+  </div>
+  <a href="#" data-tip="Share" class="gen">&#9874;</a>
+  <a href="#" data-tip="Favorites" class="sel">&starf;</a>
+</div>
