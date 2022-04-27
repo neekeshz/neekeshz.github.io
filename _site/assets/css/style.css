@@ -175,6 +175,11 @@ footer {
   text-align: center;
   color: #ddd;
   font-size: 11px;
+  position: absolute;
+  bottom: 2px;
+  width: 96%;
+  margin: 1em;
+  
 }
 
 [data-tip]::after {
