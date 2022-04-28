@@ -1,5 +1,6 @@
 ---
 layout: default
+title: List of all blogs
 ---
 
 {% for post in site.posts %}
